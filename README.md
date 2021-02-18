@@ -13,15 +13,15 @@ For this project I refactored and made functional a password generator. The pass
 6. If the user does not select any character boxes, the user will also be alerted to do so. 
 
 **Link to Github Page:**
-https://github.com/ksboyer17/Personal-Portfolio -
-[GitHub](https://github.com/ksboyer17/Personal-Portfolio)
+https://github.com/ksboyer17/Password-Generator -
+[GitHub](https://github.com/ksboyer17/Password-Generator)
 
 **Link to Deployed Webpage:**
 https://ksboyer17.github.io/Personal-Portfolio/ -
 [GitHub](https://ksboyer17.github.io/Personal-Portfolio/)
 
 **Deployed Screen Shot of Password Generator**
-![Screenshot of the Password Generator]()
+![Screenshot of the Password Generator](https://github.com/ksboyer17/Password-Generator/blob/main/Assets/Screen%20Shot%202021-02-17%20at%207.09.38%20PM.png)
 
 **Deployed Screen Shot Page 2**
-![Screenshot of Prompt]()
+![Screenshot of Prompt](https://github.com/ksboyer17/Password-Generator/blob/main/Assets/Screen%20Shot%202021-02-17%20at%207.14.33%20PM.png)
