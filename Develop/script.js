@@ -22,7 +22,7 @@ function generatePassword() {
   var passwordLength = parseInt(document.generator.pwlength.value);
       if (passwordLength >= 8 && passwordLength <= 128) {
       if (!document.generator.uppercase.checked && !document.generator.lowercase.checked && !document.generator.numbers.checked && !document.generator.symbols.checked) {
-        alert("Please check a box to continue!")
+        alert("Please enter a value between 8 and 128 and check the boxes of the applicable characters!")
       } else{
       if (document.generator.uppercase.checked) {
         allowed += uppercase;
@@ -44,7 +44,7 @@ function generatePassword() {
       password += allowed[random];
       }}
     } else{
-      alert("Please enter a value between 8 and 128!")
+      alert("Please enter a value between 8 and 128 and check the boxes of the applicable characters!")
     }
   }
 
