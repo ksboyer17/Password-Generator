@@ -15,7 +15,7 @@ function writePassword() {
 }
 
 //functions for the different variable that can be in the password
-//length parameters
+//length parameters function
 function generatePassword() {
   password = "";
   var allowed = '';
@@ -37,7 +37,7 @@ function generatePassword() {
         allowed += symbols;
       }
       console.log(allowed.length)
-      //randomizing math function
+      //randomizing function to randomize password
       for(var i = 0; i < passwordLength; i++) {
         var random = Math.floor(Math.random() * allowed.length);
         console.log(random)
@@ -49,6 +49,6 @@ function generatePassword() {
   }
 
 
-// Event Listener Function
+// Event Listener Function to start program
 generateBtn.addEventListener("click", writePassword);
 
